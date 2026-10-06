@@ -33,6 +33,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images_vendor \
     libsuspend
+# MTK
+PRODUCT_PACKAGES += \
+    MtkInCallService 
 
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
