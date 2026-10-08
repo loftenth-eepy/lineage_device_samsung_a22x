@@ -24,6 +24,19 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl.recovery \
     android.hardware.health@2.1-service
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@1.0-impl \
+    android.hardware.thermal@2.0.vendor
+
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images_vendor \
+    libsuspend
+# MTK
+PRODUCT_PACKAGES += \
+    MtkInCallService 
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
